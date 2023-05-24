@@ -46,7 +46,7 @@ class Tokenized_Dataset(Dataset):
         self.tags_idxs = self.tags2index(self.tags)
 
         #generate and tokenize <pad> token.
-        self.pad_token = self.tokenizer.tokenize("[PAD]")
+        self.pad_token = self.tokenizer.tokenize("[PAD]")[0]
         self.pad_token_idx = self.tokenizer.convert_tokens_to_ids(self.pad_token)
 
         
@@ -115,6 +115,7 @@ class Tokenized_Dataset(Dataset):
             pad_lenght = (self.seq_lenght - (idx_2-idx))
             pad_tok = [self.pad_token]*pad_lenght
             pad_tok_idx = self.tokenizer.convert_tokens_to_ids(pad_tok)
+
             pad_label = ["NONE"]*pad_lenght
             pad_idxs = self.tags2index(pad_label)
             data = {"x":self.tokens_idx[idx:idx_2]+pad_tok_idx, "x_ref":self.tokens[idx:idx_2]+pad_tok, "y":self.tags_idxs[idx:idx_2]+pad_idxs}
