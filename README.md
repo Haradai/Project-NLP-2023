@@ -31,7 +31,6 @@ The performance of the developed models was evaluated on the validation set. The
 - Josep Maria Rocafort (josem.rocafortf@gmail.com)
 - Nerea Qing
 
-Xarxes Neuronals i Aprenentatge Profund,
+Fundamentals of Natural Language,
 Grau de Artificial Intelligence, 
 UAB, 2023
-
