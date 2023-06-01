@@ -11,7 +11,7 @@ The project is structured as follows:
 - `data/`: This directory contains the JSON dataset file.
 - `archive/`: This directory contains Jupyter notebooks used during the process.
 - `reports/`: This directory contains the project report and the presentation.
-- 'Final_Notebook': This file contain all the code and explanations of the project.
+- 'Final_Notebook.ipynb': This file contain all the code and explanations of the project.
 
 ## Installation and usage
 To run this project locally, follow these steps:
