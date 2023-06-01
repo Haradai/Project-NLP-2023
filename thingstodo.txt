@@ -1,6 +1,0 @@
-THINGS TO DO
-
-1) Finish wordmodel approach
-2) Finish charmodel approach
-3) Finish presentation
-4) Finish report
