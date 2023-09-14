@@ -29,7 +29,7 @@ The performance of the developed models was evaluated on the validation set. The
 ## Contributors
 - Júlia Garcia Torné (1630382@uab.cat)
 - Josep Maria Rocafort (josem.rocafortf@gmail.com)
-- Nerea Qing
+- Nerea Qing (nereaqing@gmail.com)
 
 Fundamentals of Natural Language,
 Grau de Artificial Intelligence, 
