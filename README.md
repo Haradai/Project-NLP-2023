@@ -4,7 +4,7 @@
 This project aims to develop a machine learning model for the detection of negation and uncertainty in text data. The model can be useful in various natural language processing (NLP) applications such as sentiment analysis, information extraction, and medical text analysis.
 
 ## Dataset
-The dataset used in this project is a JSON file containing sample texts and annotations of negation and uncertainty. The dataset is divided into two subsets: a training set (70%) and a validation set (30%). Each text sample is annotated with the presence of negation and uncertainty, allowing for supervised learning.
+The dataset used in this project is a JSON file containing sample texts and annotations of negation and uncertainty provided by the company ASHO. The dataset is divided into two subsets: a training set (70%) and a validation set (30%). Each text sample is annotated with the presence of negation and uncertainty, allowing for supervised learning.
 
 ## Project Structure
 The project is structured as follows:
